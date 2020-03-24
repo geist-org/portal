@@ -1,0 +1,39 @@
+import Layout from 'lib/layout'
+import { Card, Spacer, Link, Code, Dot, Text, Avatar, Row, Col } from '@zeit-ui/react'
+
+<Spacer y={5} />
+
+### ZEIT UI
+
+Hello everyone, we are an **unofficial UI organization** and big fans of ZEIT design style.
+Here are some implementation of ZEIT design draft, you can use them at will.
+
+
+<Spacer y={3} />
+<Dot type="success"><Text b type="success">Contributors</Text></Dot>
+<Spacer y={.7} />
+
+<Row>
+  <Col offset=".5">
+    <Avatar stacked  draggable="false" src="https://avatars3.githubusercontent.com/u/11304944?s=96&v=4" />
+    <Avatar stacked  draggable="false" src="https://avatars2.githubusercontent.com/u/8299540?s=96&v=4" />
+    <Avatar stacked  draggable="false" src="https://avatars2.githubusercontent.com/u/17999142?s=96&v=4" />
+  </Col>
+</Row>
+
+<Spacer y={3} />
+<Dot type="success"><Text b type="success">Related projects</Text></Dot>
+<Spacer y={.7} />
+<Row>
+  <Col offset=".5">
+    <Link pure href="https://github.com/zeit-ui/vue" target="_blank"><Code>zeit-ui/vue</Code>&nbsp;- Vue UI library</Link>
+    <Spacer y={.5} />
+    <Link pure href="https://github.com/zeit-ui/react" target="_blank"><Code>zeit-ui/react</Code>&nbsp;- React UI library</Link>
+    <Spacer y={.5} />
+    <Link pure href="https://github.com/zeit-ui/typography" target="_blank"><Code>typography</Code>&nbsp;- Typography styles</Link>
+    <Spacer y={.5} />
+  </Col>
+</Row>
+
+
+export default ({ children }) => <Layout>{children}</Layout>
