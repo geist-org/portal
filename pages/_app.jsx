@@ -1,13 +1,13 @@
-import Head from 'next/head';
-import React from 'react';
-import { ZEITUIProvider, useTheme, CSSBaseline } from '@zeit-ui/react';
+import Head from 'next/head'
+import React from 'react'
+import { ZEITUIProvider, useTheme, CSSBaseline } from '@zeit-ui/react'
 
 const myTheme = {
   type: 'dark'
-};
+}
 
 const Application = ({ Component, pageProps }) => {
-  const theme = useTheme();
+  const theme = useTheme()
 
   return (
     <>
@@ -34,7 +34,10 @@ const Application = ({ Component, pageProps }) => {
           property="twitter:image"
           content="https://user-images.githubusercontent.com/11304944/76085431-fd036480-5fec-11ea-8412-9e581425344a.png"
         />
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover" />
+        <meta
+          name="viewport"
+          content="initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover"
+        />
       </Head>
       <ZEITUIProvider theme={myTheme}>
         <CSSBaseline>
@@ -62,7 +65,7 @@ const Application = ({ Component, pageProps }) => {
         `}</style>
       </ZEITUIProvider>
     </>
-  );
-};
+  )
+}
 
-export default Application;
+export default Application

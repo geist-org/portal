@@ -1,7 +1,7 @@
-import { Text, useTheme, Link, Spacer, Row, Col, Code, Avatar, Dot } from '@zeit-ui/react';
+import { Text, useTheme, Link, Spacer, Row, Col, Code, Avatar, Dot } from '@zeit-ui/react'
 
 const Home = () => {
-  const theme = useTheme();
+  const theme = useTheme()
 
   return (
     <main>
@@ -51,16 +51,32 @@ const Home = () => {
         <Col offset=".5">
           <Avatar.Group>
             <Link pure href="https://github.com/unix" target="_blank">
-              <Avatar stacked draggable="false" src="https://avatars3.githubusercontent.com/u/11304944?s=96&v=4" />
+              <Avatar
+                stacked
+                draggable="false"
+                src="https://avatars3.githubusercontent.com/u/11304944?s=96&v=4"
+              />
             </Link>
             <Link pure href="https://github.com/ofekashery" target="_blank">
-              <Avatar stacked draggable="false" src="https://avatars2.githubusercontent.com/u/16443111?s=96&v=4" />
+              <Avatar
+                stacked
+                draggable="false"
+                src="https://avatars2.githubusercontent.com/u/16443111?s=96&v=4"
+              />
             </Link>
             <Link pure href="https://github.com/l1shen" target="_blank">
-              <Avatar stacked draggable="false" src="https://avatars2.githubusercontent.com/u/8299540?s=96&v=4" />
+              <Avatar
+                stacked
+                draggable="false"
+                src="https://avatars2.githubusercontent.com/u/8299540?s=96&v=4"
+              />
             </Link>
             <Link pure href="https://github.com/Lzumikonata" target="_blank">
-              <Avatar stacked draggable="false" src="https://avatars2.githubusercontent.com/u/17999142?s=96&v=4" />
+              <Avatar
+                stacked
+                draggable="false"
+                src="https://avatars2.githubusercontent.com/u/17999142?s=96&v=4"
+              />
             </Link>
           </Avatar.Group>
         </Col>
@@ -109,7 +125,7 @@ const Home = () => {
         }
       `}</style>
     </main>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
