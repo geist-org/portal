@@ -20,7 +20,7 @@ const Home = () => {
         </Link>{' '}
         style.
         <br />
-        Here are some of our implementation of Vercel Design, so you can use them well.
+        Here are some of our implementations of Vercel Design, so you can use them well.
       </p>
 
       <Link pure href="https://react.zeit-ui.co" target="_blank">
