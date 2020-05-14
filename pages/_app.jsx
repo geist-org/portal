@@ -21,11 +21,11 @@ const Application = ({ Component, pageProps }) => {
         <meta property="og:url" content="//zeit-ui.co" />
         <meta
           property="og:image"
-          content="https://user-images.githubusercontent.com/11304944/81868532-10aae880-95a5-11ea-9f5d-cc4ad24169a7.png"
+          content="https://user-images.githubusercontent.com/11304944/81934557-bdc34680-9621-11ea-9872-16384b1f5872.png"
         />
         <meta
           property="twitter:image"
-          content="https://user-images.githubusercontent.com/11304944/81868532-10aae880-95a5-11ea-9f5d-cc4ad24169a7.png"
+          content="https://user-images.githubusercontent.com/11304944/81934557-bdc34680-9621-11ea-9872-16384b1f5872.png"
         />
         <meta
           name="viewport"

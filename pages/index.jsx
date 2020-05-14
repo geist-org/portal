@@ -15,11 +15,11 @@ const Home = () => {
         <Link color target="_blank" href="https://github.com/zeit-ui">
           open source
         </Link>{' '}
-        <b>unofficial organization</b> and big fans of{' '}
+        organization and big fans of{' '}
         <Link target="_blank" href="https://vercel.com/design">
-          <i>Vercel Design style</i>
+          <i>Vercel design style</i>
         </Link>
-        . Here are some of our implementations of Vercel Design, so you can use them well.
+        . Here are some of our implementations of Vercel design, so you can use them well.
       </p>
       <p>
         You can leave your suggestions, inquiries, or any different ideas on{' '}
