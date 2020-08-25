@@ -1,4 +1,4 @@
-import { Code, Link, Spacer } from '@zeit-ui/react'
+import { Code, Link, Spacer } from '@geist-ui/react'
 import SectionName from './section-name'
 
 const Projects = () => {
@@ -6,20 +6,20 @@ const Projects = () => {
     <>
       <SectionName name="Projects" />
       <div style={{ paddingLeft: '10px' }}>
-        <Link href="https://react.zeit-ui.co" target="_blank">
-          <Code>zeit-ui/react</Code>&nbsp;- React UI library
+        <Link href="https://react.geist-ui.dev" target="_blank">
+          <Code>Geist React</Code>&nbsp;- React UI library
         </Link>
         <Spacer y={0.5} />
-        <Link href="https://vue.zeit-ui.co" target="_blank">
-          <Code>zeit-ui/vue</Code>&nbsp;- Vue UI library
+        <Link href="https://vue.geist-ui.dev" target="_blank">
+          <Code>Geist Vue</Code>&nbsp;- Vue UI library (2.0)
         </Link>
         <Spacer y={0.5} />
-        <Link href="https://typography.zeit-ui.co" target="_blank">
-          <Code>typography</Code>&nbsp;- Typography styles
+        <Link href="https://typography.geist-ui.dev" target="_blank">
+          <Code>Geist Typography</Code>&nbsp;- Easy to use text layout style
         </Link>
         <Spacer y={0.5} />
-        <Link href="https://zeit-style.now.sh" target="_blank">
-          <Code>styles</Code>&nbsp;- CSS styles
+        <Link href="https://style.geist-ui.dev" target="_blank">
+          <Code>Geist Style</Code>&nbsp;- Additional CSS style implementation
         </Link>
       </div>
     </>

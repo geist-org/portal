@@ -1,4 +1,4 @@
-import { Grid, User } from '@zeit-ui/react'
+import { Grid, User } from '@geist-ui/react'
 import SectionName from './section-name'
 
 const Contributors = () => {

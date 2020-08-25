@@ -1,5 +1,5 @@
-import { Row, Spacer } from '@zeit-ui/react'
-import ChevronsRight from '@zeit-ui/react-icons/chevronsRight'
+import { Row, Spacer } from '@geist-ui/react'
+import ChevronsRight from '@geist-ui/react-icons/chevronsRight'
 
 const SectionName = ({ name }) => {
   return (

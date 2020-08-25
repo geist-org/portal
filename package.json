@@ -7,8 +7,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@zeit-ui/react": "^1.4.2",
-    "@zeit-ui/react-icons": "^1.2.2",
+    "@geist-ui/react": "^2.0.0",
+    "@geist-ui/react-icons": "^1.0.0",
     "next": "^9.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
