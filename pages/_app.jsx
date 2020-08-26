@@ -11,13 +11,19 @@ const Application = ({ Component, pageProps }) => {
         <link rel="dns-prefetch" href="//geist-ui.dev" />
         <meta name="google" value="notranslate" />
         <meta name="referrer" content="strict-origin" />
-        <meta name="description" content="Implementations of Vercel Design." />
-        <meta property="og:site_name" content="geist-ui" />
-        <meta property="og:description" content="Implementations of Vercel Design." />
+        <meta
+          name="description"
+          content="An open-source design system for building modern websites and applications."
+        />
+        <meta property="og:site_name" content="Geist UI" />
+        <meta
+          property="og:description"
+          content="An open-source design system for building modern websites and applications."
+        />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="author" content="geist-ui" />
-        <meta property="og:title" content="geist-ui" />
+        <meta property="og:title" content="Geist UI" />
         <meta property="og:url" content="//geist-ui.dev" />
         <meta
           property="og:image"
